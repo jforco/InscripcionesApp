@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Inscripciones</string>
+    <string name="action_settings">Settings</string>
+    <string name="nombre">Nombre:</string>
+    <string name="edad">Edad</string>
+    <string name="genero">Género</string>
+    <string name="color">Color:</string>
+    <string name="edad_rotulo">años</string>
+    <string-array name="colors_array">
+        <item>Todos</item>
+        <item>Rojo</item>
+        <item>Amarillo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Celeste</item>
+        <item>Naranja</item>
+    </string-array>
+    <string-array name="churchs_array">
+        <item>Todos</item>
+        <item>Aguas de Vida</item>
+        <item>Alfa y Omega 1</item>
+        <item>Alfa y Omega 2</item>
+        <item>Antioquia 1</item>
+        <item>Antioquia 2</item>
+        <item>Antioquia 3</item>
+        <item>Buenas Nuevas 2</item>
+        <item>Buenas Nuevas 3</item>
+        <item>Bethesda</item>
+        <item>Cristo la Única Esperanza</item>
+        <item>Dios es Amor</item>
+        <item>Dios es Amor (Enconada)</item>
+        <item>Divina Gracia</item>
+        <item>Emanuel (Km 15)</item>
+        <item>Emanuel (La Bélgica)</item>
+        <item>Esmirna</item>
+        <item>Fuente de Luz</item>
+        <item>Filadelfia</item>
+        <item>Getsemaní</item>
+        <item>Gloriosa</item>
+        <item>La voz de Cristo</item>
+        <item>Luz del Mundo</item>
+        <item>Maranatha</item>
+        <item>Maravillosa Gracia</item>
+        <item>Monte de los Olivos</item>
+        <item>Monte Moriah</item>
+        <item>Nueva Canaán</item>
+        <item>Nueva Luz</item>
+        <item>Nueva Belén</item>
+        <item>Nueva Bethel 1</item>
+        <item>Nueva Bethel 2</item>
+        <item>Nueva Jerusalen 1</item>
+        <item>Nueva Jerusalen 2</item>
+        <item>Nueva Jerusalen 3</item>
+        <item>Nueva Vida (Plan 4000)</item>
+        <item>Nueva Vida en Cristo</item>
+        <item>Nuevo Amanecer</item>
+        <item>Palabra de Vida</item>
+        <item>Palestina</item>
+        <item>Paraíso</item>
+        <item>Peniel 1</item>
+        <item>Peniel 2</item>
+        <item>Peniel 3</item>
+        <item>Peniel 4</item>
+        <item>Puerta del Cielo</item>
+        <item>Rios de Agua Viva</item>
+        <item>Verbo de Vida</item>
+        <item>Vida Nueva (Cotoca)</item>
+    </string-array>
+    <string-array name="iglesias_array">
+        <item>Aguas de Vida</item>
+        <item>Alfa y Omega 1</item>
+        <item>Alfa y Omega 2</item>
+        <item>Antioquia 1</item>
+        <item>Antioquia 2</item>
+        <item>Antioquia 3</item>
+        <item>Buenas Nuevas 2</item>
+        <item>Buenas Nuevas 3</item>
+        <item>Bethesda</item>
+        <item>Cristo la Única Esperanza</item>
+        <item>Dios es Amor</item>
+        <item>Dios es Amor (Enconada)</item>
+        <item>Divina Gracia</item>
+        <item>Emanuel (Km 15)</item>
+        <item>Emanuel (La Bélgica)</item>
+        <item>Esmirna</item>
+        <item>Fuente de Luz</item>
+        <item>Filadelfia</item>
+        <item>Getsemaní</item>
+        <item>Gloriosa</item>
+        <item>La voz de Cristo</item>
+        <item>Luz del Mundo</item>
+        <item>Maranatha</item>
+        <item>Maravillosa Gracia</item>
+        <item>Monte de los Olivos</item>
+        <item>Monte Moriah</item>
+        <item>Nueva Canaán</item>
+        <item>Nueva Luz</item>
+        <item>Nueva Belén</item>
+        <item>Nueva Bethel 1</item>
+        <item>Nueva Bethel 2</item>
+        <item>Nueva Jerusalen 1</item>
+        <item>Nueva Jerusalen 2</item>
+        <item>Nueva Jerusalen 3</item>
+        <item>Nueva Vida (Plan 4000)</item>
+        <item>Nueva Vida en Cristo</item>
+        <item>Nuevo Amanecer</item>
+        <item>Palabra de Vida</item>
+        <item>Palestina</item>
+        <item>Paraíso</item>
+        <item>Peniel 1</item>
+        <item>Peniel 2</item>
+        <item>Peniel 3</item>
+        <item>Peniel 4</item>
+        <item>Puerta del Cielo</item>
+        <item>Rios de Agua Viva</item>
+        <item>Verbo de Vida</item>
+        <item>Vida Nueva (Cotoca)</item>
+    </string-array>
+</resources>

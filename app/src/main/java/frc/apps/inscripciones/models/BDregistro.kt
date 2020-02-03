@@ -177,8 +177,7 @@ class BDregistro(context: Context) : SQLiteOpenHelper(context, DB_NAME, null, DB
     fun cantIglesias(): List<ColorGrupo>{
         val lista = ArrayList<ColorGrupo>()
         val db = writableDatabase
-        var selectQuery = "SELECT $IGLESIA, COUNT($NOMBRE) AS cantidad FROM $TABLE_NAME GROUP BY $IGLESIA"
-        var selectQuery124 = "SELECT  $IGLESIA FROM $TABLE_NAME GROUP BY $IGLESIA"
+        var selectQuery = "SELECT $IGLESIA, COUNT($NOMBRE) AS cantidad FROM $TABLE_NAME GROUP BY $IGLESIA ORDER BY cantidad DESC"
         val cursor = db.rawQuery(selectQuery, null)
         if (cursor != null) {
             cursor.moveToFirst()
@@ -186,7 +185,7 @@ class BDregistro(context: Context) : SQLiteOpenHelper(context, DB_NAME, null, DB
                 val cant = Integer.parseInt(cursor.getString(cursor.getColumnIndex("cantidad")))
                 val nombre = cursor.getString(cursor.getColumnIndex(IGLESIA))
                 Log.d("nombre:", nombre)
-                lista.add(ColorGrupo(nombre, 1))
+                lista.add(ColorGrupo(nombre, cant))
                 cursor.moveToNext()
             }
         }
